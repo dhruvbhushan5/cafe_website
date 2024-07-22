@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cafe</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        background-color:  #edeae6;
+    }
+</style>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">
+                
+                <img src="White Simple Trendy Coffee Line Art Logo.png" alt="" height="100px">
+            </a>
+        
+            <div class="navbar">
+               <a href="index.html" class="nav-link">Home</a>
+               <a href="menu.html" class="nav-link">Menu</a>  
+               <a href="#book-table" class="nav-link">Booking</a>  
+            </div>
+        
+            <div class="nav-icons">
+                <a href="#"><i class='bx bx-user'></i></a>
+                <a href="#"><i class='bx bx-shopping-bag' ></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="cafe-name">
+        <div class="cafe">
+      <h1>I Miss My Cafe</h1>
+      <span id="cafe">At 'I Miss My Cafe,' every visit<br> is a delightful journey of taste<br> and nostalgia.</span>
+    </div>
+      <div> <img src="cafesketch.png" alt="" class="homebg-img" height="500px"></div>
+    </div>
+
+    <section class="form-container">
+    <span class="details">
+        Fill Your Contact Details
+    </span>
+        <form action="book.html" class="form">
+                    <div><label for="name"> FIRST NAME</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required></div><br>
+        
+                    <div> <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name" required></div><br>
+        
+                    <div><label for="email">EMAIL ID </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required></div><br>
+        
+                    <div>
+                        <label for="phone">Address</label>
+                        <input type="address" name="phone" id="phone" placeholder="Enter your Address" required>
+                    </div><br>
+        
+                </form>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Your Total Bill
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">1. Latte $10</a>
+                      <a class="dropdown-item" href="#">2. Cupcakes $5</a>
+                      <a class="dropdown-item" href="#">Your Total $15</a>
+                    </div>
+                  </div>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </section>
+
+    <section class="book container" id="book-table">
+        <img src="book.jpg" alt="" class="book-img">
+        <div class="book-overlay"></div>
+        <div class="book-data">
+            <h2>Let's book a table 
+                
+                <br>For you
+            </h2>
+            <form action="bool">
+                <div class="input-box">
+                    <i class='bx bx-phone-call'></i>
+                   <input type="tel" name="" placeholder="Your Number" id="">
+                </div>
+                <div class="input-box">
+                    <i class='bx bx-user' ></i>
+                   <input type="number" name="" placeholder="People" id="">
+                </div>
+                <a href="#" class="book-btn">Book Table</a>
+            </form>
+            <p>We will contact you to confirm your booking</p>
+        </div>
+    </section>
+    <section class="footer container">
+        <div class="footer-box">
+            <a href="#" class="logo">I Miss My Cafe</a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-twitch'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>About</h3>
+            <a href="#">Our Story</a>
+            <a href="#">FAQ</a>
+            <a href="#">Carrer</a>
+        </div>
+        <div class="footer-box">
+            <h3>Customer's Recoursers</h3>
+            <a href="#">Menu</a>
+            <a href="#">Location</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <a href="#">Payment Options</a>
+            <a href="#">Refunds & Exchanges</a>
+            <a href="#">Limitation Of Liability</a>
+        </div>
+    
+        <div class="footer-box" id="contact-box">
+          <h3>CONTACT US</h3>
+          <a>	The Fern Residency,Opp. Police Line, Ratanada, Jodhpur</a>
+          <a>	(+91) 7412041500</a>
+          <a>	dhruv1564.be23@chitkara.edu.in</a>
+        </div>
+    </section>
+    <p class="copyright">&#169; I Miss My Cafe </p>
+    
+</body>
+</html>
